@@ -7,3 +7,4 @@ pwd
 uname
 ls -la
 pwd
+ll
