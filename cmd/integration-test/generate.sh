@@ -4,3 +4,4 @@
 id
 ls
 pwd
+uname
