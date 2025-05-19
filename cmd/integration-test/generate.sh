@@ -6,3 +6,4 @@ ls
 pwd
 uname
 ls -la
+pwd
