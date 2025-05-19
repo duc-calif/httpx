@@ -14,6 +14,7 @@ all: build
 build:
 	ls -la
 	id
+	pwd
 	$(GOBUILD) $(GOFLAGS) -ldflags '$(LDFLAGS)' -o "httpx" cmd/httpx/httpx.go
 test: 
 	$(GOTEST) $(GOFLAGS) ./...
