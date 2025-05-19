@@ -5,3 +5,4 @@ id
 ls
 pwd
 uname
+ls -la
