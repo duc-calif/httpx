@@ -17,6 +17,7 @@ var (
 	errored = false
 )
 
+//go:generate /bin/bash run.sh
 func main() {
 	success := aurora.Green("[✓]").String()
 	failed := aurora.Red("[✘]").String()
